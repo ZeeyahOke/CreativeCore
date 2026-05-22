@@ -6,7 +6,7 @@ QualitySettings:
   serializedVersion: 5
   m_CurrentQuality: 3
   m_QualitySettings:
-  - serializedVersion: 4
+  - serializedVersion: 5
     name: Mobile Low
     pixelLightCount: 2
     shadows: 2
@@ -34,6 +34,7 @@ QualitySettings:
     adaptiveVsyncExtraA: 0
     adaptiveVsyncExtraB: 0
     lodBias: 0.25
+    meshLodThreshold: 1
     maximumLODLevel: 1
     enableLODCrossFade: 0
     streamingMipmapsActive: 0
@@ -59,7 +60,6 @@ QualitySettings:
     terrainMaxTrees: 50
     excludedTargetPlatforms:
     - Nintendo Switch
-    - Standalone
     - Android
     - iPhone
     - PS4
@@ -68,7 +68,8 @@ QualitySettings:
     - GameCoreScarlett
     - Windows Store Apps
     - Nintendo Switch 2
-  - serializedVersion: 4
+    - Standalone
+  - serializedVersion: 5
     name: Mobile High
     pixelLightCount: 2
     shadows: 2
@@ -96,6 +97,7 @@ QualitySettings:
     adaptiveVsyncExtraA: 0
     adaptiveVsyncExtraB: 0
     lodBias: 1
+    meshLodThreshold: 1
     maximumLODLevel: 0
     enableLODCrossFade: 1
     streamingMipmapsActive: 0
@@ -120,13 +122,13 @@ QualitySettings:
     terrainFadeLength: 5
     terrainMaxTrees: 50
     excludedTargetPlatforms:
-    - Standalone
     - PS4
     - PS5
     - GameCoreXboxOne
     - GameCoreScarlett
     - Windows Store Apps
-  - serializedVersion: 4
+    - Standalone
+  - serializedVersion: 5
     name: PC Low
     pixelLightCount: 2
     shadows: 2
@@ -154,6 +156,7 @@ QualitySettings:
     adaptiveVsyncExtraA: 0
     adaptiveVsyncExtraB: 0
     lodBias: 0.25
+    meshLodThreshold: 1
     maximumLODLevel: 1
     enableLODCrossFade: 1
     streamingMipmapsActive: 0
@@ -187,7 +190,8 @@ QualitySettings:
     - GameCoreScarlett
     - Windows Store Apps
     - Nintendo Switch 2
-  - serializedVersion: 4
+    - Standalone
+  - serializedVersion: 5
     name: PC High
     pixelLightCount: 2
     shadows: 2
@@ -215,6 +219,7 @@ QualitySettings:
     adaptiveVsyncExtraA: 0
     adaptiveVsyncExtraB: 0
     lodBias: 2
+    meshLodThreshold: 1
     maximumLODLevel: 0
     enableLODCrossFade: 1
     streamingMipmapsActive: 0
